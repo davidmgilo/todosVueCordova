@@ -16,6 +16,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+
+    <allow-navigation href="http://todosbackend.davidmartinez.2dam.acacha.org:8080/*"></allow-navigation>
+
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
