@@ -36,7 +36,7 @@ function start(argv) {
     }
 
     // defaults
-    args.port = args.port || 8000;
+    args.port = args.port || 8095;
     args.target = args.target || "chrome";
 
     var root = path.join(__dirname, '../'),
