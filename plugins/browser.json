@@ -27,6 +27,18 @@
         },
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
         }
     },
     "dependent_plugins": {}
