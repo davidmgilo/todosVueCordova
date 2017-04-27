@@ -1,7 +1,8 @@
 {
   "name": "cordova-plugin-contacts",
-  "version": "1.1.0",
+  "version": "2.3.0",
   "description": "Cordova Contacts Plugin",
+  "types": "./types/index.d.ts",
   "cordova": {
     "id": "cordova-plugin-contacts",
     "platforms": [
@@ -10,7 +11,6 @@
       "ubuntu",
       "ios",
       "blackberry10",
-      "wp7",
       "wp8",
       "firefoxos",
       "windows8",
@@ -36,6 +36,20 @@
     "cordova-windows8",
     "cordova-windows"
   ],
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
+  },
   "author": "Apache Software Foundation",
-  "license": "Apache 2.0"
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  }
 }
