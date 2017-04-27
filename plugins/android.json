@@ -7,13 +7,25 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
+        },
         "cordova-plugin-console": {
+            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
+        },
+        "cordova-plugin-contacts": {
             "PACKAGE_NAME": "org.acacha.todosCordovaDM"
         },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "org.acacha.todosCordovaDM"
         },
         "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
+        },
+        "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "org.acacha.todosCordovaDM"
         },
         "cordova-plugin-inappbrowser": {
@@ -26,18 +38,6 @@
             "PACKAGE_NAME": "org.acacha.todosCordovaDM"
         },
         "phonegap-plugin-push": {
-            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
-        },
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
-        },
-        "cordova-plugin-camera": {
-            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
-        },
-        "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "org.acacha.todosCordovaDM"
-        },
-        "cordova-plugin-contacts": {
             "PACKAGE_NAME": "org.acacha.todosCordovaDM"
         }
     },
